@@ -29,7 +29,8 @@ export default function SearchAppBar() {
             <input
               type="text"
               placeholder="Start typing to search.."
-              className="bg-grey border-0 lh-32 pt-2 pb-2 ps-5 pe-3 font-xssss fw-500 rounded-xl w350 theme-dark-bg"
+              className="widthmentain bg-grey border-0 lh-32 pt-2 pb-2 ps-5 pe-3 font-xssss fw-500 rounded-xl w350 theme-dark-bg"
+              style={{ width: "520px" }} 
             />
           </div>
         </form>
@@ -39,30 +40,20 @@ export default function SearchAppBar() {
         >
           <i className="feather-home font-lg alert-primary btn-round-lg theme-dark-bg text-current " />
         </a>
-        <a
+        {/* <a
           href="#"
           className="p-2 text-center ms-0 menu-icon center-menu-icon"
         >
           <i className="feather-zap font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
-        </a>
-        <a
-          href="#"
-          className="p-2 text-center ms-0 menu-icon center-menu-icon"
-        >
-          <i className="feather-video font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
-        </a>
+        </a> */}
+      
         <a
           href="#"
           className="p-2 text-center ms-0 menu-icon center-menu-icon"
         >
           <i className="feather-user font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
         </a>
-        <a
-          href="#"
-          className="p-2 text-center ms-0 menu-icon center-menu-icon"
-        >
-          <i className="feather-shopping-bag font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
-        </a>
+        
         <a
           href="#"
           className="p-2 text-center ms-auto menu-icon"

@@ -17932,3 +17932,13 @@ select.sort {
     }
 }
 
+.widthmentain{
+    width: 520px !important;
+}
+.heightmaintain{
+    height: 400px !important;
+}
+.colorchange{
+    background: #fdbb00 !important;
+    color: #000 !important;
+}
