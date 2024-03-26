@@ -40,23 +40,23 @@ const Sidebar = () => {
           <ul className="mb-1">
             <li className="logo d-none d-xl-block d-lg-block" />
             <li>
-              <a
+              <Link to="/setting"
                 href="default-settings.html"
                 className="nav-content-bttn open-font h-auto pt-2 pb-2"
               >
                 <i className="font-sm feather-settings me-3 text-grey-500" />
                 <span>Settings</span>
-              </a>
+              </Link>
             </li>
         
             <li>
-              <a
+              <Link to="/chat"
                 href="default-message.html"
                 className="nav-content-bttn open-font h-auto pt-2 pb-2"
               >
                 <i className="font-sm feather-message-square me-3 text-grey-500" />
                 <span>Chat</span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

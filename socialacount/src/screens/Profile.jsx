@@ -24,9 +24,9 @@ const Profile = () => {
                 />
               </figure>
               <h4 className="fw-700 font-sm mt-2 mb-lg-5 mb-4 pl-15">
-                Mohannad Zitoun{" "}
+                Siraj umrani{" "}
                 <span className="fw-500 font-xssss text-grey-500 mt-1 mb-3 d-block">
-                  support@gmail.com
+                  siraj110@gmail.com
                 </span>
               </h4>
               <div className="d-flex align-items-center justify-content-center position-absolute-md right-15 top-0 me-2">
@@ -34,7 +34,7 @@ const Profile = () => {
                   href="#"
                   className="colorchange d-none d-lg-block bg-success p-3 z-index-1 rounded-3 text-white font-xsssss text-uppercase fw-700 ls-3"
                 >
-                  Add Friend
+                 Follow
                 </a>
                 <a
                   href="#"
@@ -110,24 +110,8 @@ const Profile = () => {
                     About
                   </a>
                 </li>
-                <li className="list-inline-item me-5">
-                  <a
-                    className="fw-700 font-xssss text-grey-500 pt-3 pb-3 ls-1 d-inline-block"
-                    href="#navtabs2"
-                    data-toggle="tab"
-                  >
-                    Membership
-                  </a>
-                </li>
-                <li className="list-inline-item me-5">
-                  <a
-                    className="fw-700 font-xssss text-grey-500 pt-3 pb-3 ls-1 d-inline-block"
-                    href="#navtabs3"
-                    data-toggle="tab"
-                  >
-                    Discussion
-                  </a>
-                </li>
+               
+                
                 <li className="list-inline-item me-5">
                   <a
                     className="fw-700 font-xssss text-grey-500 pt-3 pb-3 ls-1 d-inline-block"
@@ -146,15 +130,7 @@ const Profile = () => {
                     Group
                   </a>
                 </li>
-                <li className="list-inline-item me-5">
-                  <a
-                    className="fw-700 font-xssss text-grey-500 pt-3 pb-3 ls-1 d-inline-block"
-                    href="#navtabs1"
-                    data-toggle="tab"
-                  >
-                    Events
-                  </a>
-                </li>
+               
                 <li className="list-inline-item me-5">
                   <a
                     className="fw-700 me-sm-5 font-xssss text-grey-500 pt-3 pb-3 ls-1 d-inline-block"
@@ -255,62 +231,7 @@ const Profile = () => {
               </a>
             </div>
           </div>
-          <div className="card w-100 shadow-xss rounded-xxl border-0 mb-3">
-            <div className="card-body d-flex align-items-center  p-4">
-              <h4 className="fw-700 mb-0 font-xssss text-grey-900">Event</h4>
-              <a href="#" className="fw-600 ms-auto font-xssss text-primary">
-                See all
-              </a>
-            </div>
-            <div className="card-body d-flex pt-0 ps-4 pe-4 pb-3 overflow-hidden">
-              <div className="bg-success me-2 p-3 rounded-xxl">
-                <h4 className="fw-700 font-lg ls-3 lh-1 text-white mb-0">
-                  <span className="ls-1 d-block font-xsss text-white fw-600">
-                    FEB
-                  </span>
-                  22
-                </h4>
-              </div>
-              <h4 className="fw-700 text-grey-900 font-xssss mt-2">
-                Meeting with clients{" "}
-                <span className="d-block font-xsssss fw-500 mt-1 lh-4 text-grey-500">
-                  41 madison ave, floor 24 new work, NY 10010
-                </span>{" "}
-              </h4>
-            </div>
-            <div className="card-body d-flex pt-0 ps-4 pe-4 pb-3 overflow-hidden">
-              <div className="bg-warning me-2 p-3 rounded-xxl">
-                <h4 className="fw-700 font-lg ls-3 lh-1 text-white mb-0">
-                  <span className="ls-1 d-block font-xsss text-white fw-600">
-                    APR
-                  </span>
-                  30
-                </h4>
-              </div>
-              <h4 className="fw-700 text-grey-900 font-xssss mt-2">
-                Developer Programe{" "}
-                <span className="d-block font-xsssss fw-500 mt-1 lh-4 text-grey-500">
-                  41 madison ave, floor 24 new work, NY 10010
-                </span>{" "}
-              </h4>
-            </div>
-            <div className="card-body d-flex pt-0 ps-4 pe-4 pb-3 overflow-hidden">
-              <div className="bg-primary me-2 p-3 rounded-xxl">
-                <h4 className="fw-700 font-lg ls-3 lh-1 text-white mb-0">
-                  <span className="ls-1 d-block font-xsss text-white fw-600">
-                    APR
-                  </span>
-                  23
-                </h4>
-              </div>
-              <h4 className="fw-700 text-grey-900 font-xssss mt-2">
-                Aniversary Event{" "}
-                <span className="d-block font-xsssss fw-500 mt-1 lh-4 text-grey-500">
-                  41 madison ave, floor 24 new work, NY 10010
-                </span>{" "}
-              </h4>
-            </div>
-          </div>
+      
         </div>
         <div className="col-xl-8 col-xxl-9 col-lg-8">
           <div className="card w-100 shadow-xss rounded-xxl border-0 ps-4 pt-4 pe-4 pb-3 mb-3 mt-3">
@@ -425,7 +346,7 @@ const Profile = () => {
                 />
               </figure>
               <h4 className="fw-700 text-grey-900 font-xssss mt-1">
-                Anthony Daugloi{" "}
+               Siraj Umrani{" "}
                 <span className="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">
                   3 hour ago
                 </span>
@@ -565,7 +486,7 @@ const Profile = () => {
                 />
               </figure>
               <h4 className="fw-700 text-grey-900 font-xssss mt-1">
-                Anthony Daugloi{" "}
+               Siraj Umrani{" "}
                 <span className="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">
                   2 hour ago
                 </span>
@@ -667,7 +588,7 @@ const Profile = () => {
                 />
               </figure>
               <h4 className="fw-700 text-grey-900 font-xssss mt-1">
-                Anthony Daugloi{" "}
+               Siraj Umrani{" "}
                 <span className="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">
                   2 hour ago
                 </span>
@@ -776,7 +697,7 @@ const Profile = () => {
                 />
               </figure>
               <h4 className="fw-700 text-grey-900 font-xssss mt-1">
-                Anthony Daugloi{" "}
+               Siraj Umrani{" "}
                 <span className="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">
                   2 hour ago
                 </span>

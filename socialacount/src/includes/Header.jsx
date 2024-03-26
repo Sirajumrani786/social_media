@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function SearchAppBar() {
   return (
@@ -34,12 +35,12 @@ export default function SearchAppBar() {
             />
           </div>
         </form>
-        <a
-          href="#"
+        <Link 
+          to="/"
           className="p-2 text-center ms-3 menu-icon center-menu-icon"
         >
           <i className="feather-home font-lg alert-primary btn-round-lg theme-dark-bg text-current " />
-        </a>
+        </Link>
         {/* <a
           href="#"
           className="p-2 text-center ms-0 menu-icon center-menu-icon"
@@ -47,25 +48,22 @@ export default function SearchAppBar() {
           <i className="feather-zap font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
         </a> */}
       
-        <a
-          href="#"
+        <Link
+          to="/followers"
           className="p-2 text-center ms-0 menu-icon center-menu-icon"
         >
           <i className="feather-user font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
-        </a>
+        </Link>
         
-        <a
-          href="#"
+        <Link 
+          to="/notification"
           className="p-2 text-center ms-auto menu-icon"
-          id="dropdownMenu3"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-          data-bs-toggle="dropdown"
+         
+         
         >
           {/* <span className="dot-count bg-warning" /> */}
           <i className="feather-bell font-xl text-current" />
-        </a>
+        </Link>
         {/* <div
           className="dropdown-menu dropdown-menu-end p-4 rounded-3 border-0 shadow-lg"
           aria-labelledby="dropdownMenu3"
@@ -140,10 +138,10 @@ export default function SearchAppBar() {
             </h6>
           </div>
         </div> */}
-        <a href="#" className="p-2 text-center ms-3 menu-icon chat-active-btn">
+        <Link to="/chat" className="p-2 text-center ms-3 menu-icon ">
           <i className="feather-message-square font-xl text-current" />
-        </a>
-        <div className="p-2 text-center ms-3 position-relative dropdown-menu-icon menu-icon cursor-pointer">
+        </Link>
+        <Link to="/setting" className="p-2 text-center ms-3 position-relative dropdown-menu-icon menu-icon cursor-pointer">
           <i className="feather-settings  d-inline-block font-xl text-current" />
           {/* <div className="dropdown-menu-settings switchcolor-wrap">
             <h4 className="fw-700 font-sm mb-4">Settings</h4>
@@ -312,10 +310,10 @@ export default function SearchAppBar() {
               </div>
             </div>
           </div> */}
-        </div>
-        <a href="#" className="p-0 ms-3 menu-icon">
+        </Link>
+        <Link to="/profile" className="p-0 ms-3 menu-icon">
           <img src="assets/images/profile-2.png" alt="user" className="w40 mt--1" />
-        </a>
+        </Link>
       </div>
 
     </div>
