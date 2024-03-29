@@ -6,12 +6,12 @@ export default function SearchAppBar() {
     <div>
       <div className="nav-header bg-white shadow-xs border-0">
         <div className="nav-top">
-          <a href="index.html">
-            <img src="assets/images/logo.jpeg" alt="" className='feather-zap text-success display1-size me-2 ms-0' style={{width:'20%'}}/>
-            <span className="d-inline-block fredoka-font ls-3 fw-600 text-current font-xxl logo-text mb-0">
-            VibeHub{" "}
-            </span>{" "}
-          </a>
+                    <Link to="/">
+                        <img src="assets/images/logo.jpeg" alt="" className='feather-zap text-success display1-size me-2 ms-0' style={{width:'20%'}}/>
+                        <span className="d-inline-block fredoka-font ls-3 fw-600 text-current font-xxl logo-text mb-0">
+                        VibeHub{" "}
+                        </span>{" "}
+                    </Link>
           <a href="#" className="mob-menu ms-auto me-2 chat-active-btn">
             <i className="feather-message-circle text-grey-900 font-sm btn-round-md bg-greylight" />
           </a>

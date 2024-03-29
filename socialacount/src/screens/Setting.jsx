@@ -88,7 +88,7 @@ const Setting = () => {
                                                     </Link>
                                                 </li>
                                                 <li className="list-inline-item d-block me-0">
-                                                    <Link to="/" className="pt-2 pb-2 d-flex align-items-center">
+                                                    <Link to="/login" className="pt-2 pb-2 d-flex align-items-center">
                                                         <i className="bakgrd btn-round-md  text-white feather-lock font-md me-3" />{" "}
                                                         <h4 className="fw-600 font-xsss mb-0 mt-0">Logout</h4>
                                                         <i className="ti-angle-right font-xsss text-grey-500 ms-auto mt-3" />

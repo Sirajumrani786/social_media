@@ -6,7 +6,6 @@ const Main = () => {
       <div className="main-content right-chat-active">
   <div className="middle-sidebar-bottom">
     <div className="middle-sidebar-left">
-      {/* loader wrapper */}
       <div className="preloader-wrap p-3">
         <div className="box shimmer">
           <div className="lines">
@@ -33,7 +32,6 @@ const Main = () => {
           </div>
         </div>
       </div>
-      {/* loader wrapper */}
       <div className="row feed-body">
         <div className="col-xl-8 col-xxl-9 col-lg-8">
           

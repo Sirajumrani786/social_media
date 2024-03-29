@@ -1,11 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
+// App.js
 
-import './App.css';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Header from './includes/Header';
 import Sidebar from './includes/Sidebar';
 import Main from './screens/Main';
-import { Routes, Route } from 'react-router-dom';
 import Profile from './screens/Profile';
 import ChatSide from './screens/ChatSide';
 import Setting from './screens/Setting';
@@ -16,6 +15,8 @@ import Help from './screens/Help';
 import Notifictaion from './screens/Notifictaion';
 import Register from './screens/Register';
 import Followers from './screens/Followers';
+import Login from './screens/Login';
+import Protected from './components/Protected';
 
 function App() {
   return (
@@ -23,21 +24,19 @@ function App() {
       <Header />
       <Sidebar />
       <Routes>
-        <Route path='/' element={<Main />} />
-        <Route path='/profile' element={<Profile />} />
-        <Route path='/chat' element={<ChatSide />} />
-        <Route path='/setting' element={<Setting />} />
-        <Route path='/Account-info' element={<AccInfo />} />
-        <Route path='/Contact-info' element={<CntInfo />} />
-        <Route path='/password' element={<Password />} />
-        <Route path='/notification' element={<Notifictaion />} />
-        <Route path='/Help' element={<Help />} />
-        <Route path='/reg' element={<Register />} />
-        <Route path='/followers' element={<Followers />} />
-
+        <Route path='/' element={<Protected Component={Main} />} />
+        <Route path='/profile' element={<Protected Component={Profile} />} />
+        <Route path='/chat' element={<Protected Component={ChatSide} />} />
+        <Route path='/setting' element={<Protected Component={Setting} />} />
+        <Route path='/Account-info' element={<Protected Component={AccInfo} />} />
+        <Route path='/Contact-info' element={<Protected Component={CntInfo} />} />
+        <Route path='/password' element={<Protected Component={Password} />} />
+        <Route path='/notification' element={<Protected Component={Notifictaion} />} />
+        <Route path='/Help' element={<Protected Component={Help} />} />
+        <Route path='/register' element={<Register />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/followers' element={<Protected Component={Followers} />} />
       </Routes>
-
-
     </div>
   );
 }
